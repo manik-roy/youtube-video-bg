@@ -60,3 +60,7 @@ function vidRescale() {
 $(window).on("load resize", function () {
   vidRescale();
 });
+
+$(document).ready(function () {
+  $(".tv").css("display", "block");
+});
